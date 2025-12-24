@@ -1,16 +1,13 @@
 # TrafficTest - (modified) Mass Traffic Plugin for UE 5.7
 
-![Overview](/docs/overview.jpg)
-
 ### Important
 (modified) Traffic Plugin extracted from CitySample.
-We use this plugin in a project, so I'll try to share as much of 'our' code as possible as some sort of 'giving back to the community'. I hope someone finds it helpful.
 
-Re 5.7 update:
-~~I just did the bare minimum and "fixed" the compiler errors and warnings and some runtime asserts (FMassEntityQuery changed quite a bit).~~
-~~I don't claim this to be perfect but "it works". Will revist the upgrade after Epic released the 5.6 City Sample so I can see the errors of my ways.~~
-~~Updated my code with the real 5.6 City Sample.~~
-Again just my small fixes to make it run again. Haven't checked the 5.7 release of CitySample yet. It's on my ToDo list
+This fork is my attempt at getting the ZoneGraph data to be buildable at runtime instead of having to build it in editor, in the hopes of making it work with PCG and other runtime workflows.
+
+All credit to the original author and their repo here: https://github.com/Myxcil/MassTraffic-Test
+
+![Overview](/docs/overview.jpg)
 
 
 Thanks to:
